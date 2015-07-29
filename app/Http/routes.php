@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+    'as' => 'home.index',
+    'uses' => 'PagesController@index'
+]);
+
+Route::get('/go/blog', [
+    'as' => 'home.blog',
+    'uses' => 'PagesController@blog'
+]);
+
+Route::get('/{tool}', [
+    'as' => 'main.tool',
+    'uses' => 'PagesController@tool'
+]);

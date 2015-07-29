@@ -1,0 +1,39 @@
+#footer {
+    margin-top: 50px;
+}
+
+#popular-posts .panel {
+    border-radius: 0;
+}
+
+#popular-posts .panel-body {
+    padding: 0;
+}
+
+#popular-posts .post-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#popular-posts .post-info h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 21px;
+}
+
+#copyright {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.img-fullwidth {
+    width: 100%;
+}
+
+/* Navbar top */
+#navbar-top {
+    border-radius: 0;
+    border-top: 3px solid #337ab7;
+}
+
