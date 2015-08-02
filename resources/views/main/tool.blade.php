@@ -119,83 +119,23 @@
                         <a href="#" class="list-group-item">En/Decode URL <span class="badge">v3</span></a>
                     </div>
                 </div>
+
+                <!-- Popular Posts on Tu Tran Blog -->
+                <div class="panel panel-info" id="popular-posts">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Popular Posts</h3>
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">vTrans - Ứng dụng từ điển online</a>
+                        <a href="#" class="list-group-item">Những thuộc tính quan trọng khi xây dựng...</a>
+                        <a href="#" class="list-group-item">vTrans - Ứng dụng từ điển online</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <footer id="footer" class="container-fluid">
-        <!-- Popular Posts on Tu Tran Blog -->
-        <div class="row" id="popular-posts">
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a href="#" class="img-post">
-                            <img class="img-responsive img-fullwidth" src="assets/img/demo.png" alt="djfks">
-                        </a>
-                        <article class="post-info">
-                            <h3><a href="#">Những thuộc tính quan trọng khi xây dựng...</a></h3>
-                            <p class="post-content">vTrans - Ứng dụng từ điển online. Ứng dụng tích hợp từ điển Cambridge và hai Translator chính là Google Translate và Bing Translator.</p>
-                        </article>
-                    </div>
-                    <div class="panel-footer">
-                        <span class="time"><i class="fa fa-calendar-o"></i> 12.02.2015</span>
-                        <a href="#" class="link-more pull-right"><i class="fa fa-eye"></i> More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a href="#" class="img-post">
-                            <img class="img-responsive img-fullwidth" src="assets/img/demo-thumnail.jpg" alt="djfks">
-                        </a>
-                        <article class="post-info">
-                            <h3><a href="#">vTrans - Ứng dụng từ điển online</a></h3>
-                            <p class="post-content">vTrans - Ứng dụng từ điển online. Ứng dụng tích hợp từ điển Cambridge và hai Translator chính là Google Translate và Bing Translator.</p>
-                        </article>
-                    </div>
-                    <div class="panel-footer">
-                        <span class="time"><i class="fa fa-calendar-o"></i> 12.02.2015</span>
-                        <a href="#" class="link-more pull-right"><i class="fa fa-eye"></i> More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a href="#" class="img-post">
-                            <img class="img-responsive img-fullwidth" src="assets/img/demo.png" alt="djfks">
-                        </a>
-                        <article class="post-info">
-                            <h3><a href="#">vTrans - Ứng dụng từ điển online</a></h3>
-                            <p class="post-content">vTrans - Ứng dụng từ điển online. Ứng dụng tích hợp từ điển Cambridge và hai Translator chính là Google Translate và Bing Translator.</p>
-                        </article>
-                    </div>
-                    <div class="panel-footer">
-                        <span class="time"><i class="fa fa-calendar-o"></i> 12.02.2015</span>
-                        <a href="#" class="link-more pull-right"><i class="fa fa-eye"></i> More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <a href="#" class="img-post">
-                            <img class="img-responsive img-fullwidth" src="assets/img/demo.png" alt="djfks">
-                        </a>
-                        <article class="post-info">
-                            <h3><a href="#">vTrans - Ứng dụng từ điển online</a></h3>
-                            <p class="post-content">vTrans - Ứng dụng từ điển online. Ứng dụng tích hợp từ điển Cambridge và hai Translator chính là Google Translate và Bing Translator.</p>
-                        </article>
-                    </div>
-                    <div class="panel-footer">
-                        <span class="time"><i class="fa fa-calendar-o"></i> 12.02.2015</span>
-                        <a href="#" class="link-more pull-right"><i class="fa fa-eye"></i> More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Copyright -->
         <div class="row" id="copyright">
             <div class="col-md-6 pull-left">Copyright © 2015 Tu Tran Blog - All Rights Reserved</div>
