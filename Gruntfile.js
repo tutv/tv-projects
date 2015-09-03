@@ -20,7 +20,10 @@ module.exports = function (grunt) {
         watch: {
             css: {
                 files: 'tools_TV/**/*.scss',
-                tasks: ['sass']
+                tasks: ['sass'],
+                options: {
+                    livereload: true,
+                }
             },
             styles: {
                 files: ['tools_TV/style.css'],
