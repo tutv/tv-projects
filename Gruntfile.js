@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
     var project = grunt.option('project');
 
     grunt.initConfig({
@@ -6,7 +6,14 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 files: {
-                     'tools_TV/style.min.css' : 'tools_TV/sass/style.scss'
+                    'tools_TV/style.css': 'tools_TV/sass/style.scss'
+                }
+            }
+        },
+        cssmin: { // minifying css task
+            dist: {
+                files: {
+                    'tools_TV/style.min.css': 'tools_TV/style.css'
                 }
             }
         },
@@ -14,10 +21,15 @@ module.exports = function(grunt) {
             css: {
                 files: 'tools_TV/**/*.scss',
                 tasks: ['sass']
+            },
+            styles: {
+                files: ['tools_TV/style.css'],
+                tasks: ['cssmin']
             }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.registerTask('default',['watch']);
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.registerTask('default', ['watch', 'cssmin']);
 }

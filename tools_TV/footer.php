@@ -20,9 +20,9 @@
 				 *
 				 * @since Twenty Fifteen 1.0
 				 */
-				do_action( 'twentyfifteen_credits' );
+				do_action( 'tutv_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tutv' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'tutv' ), 'WordPress' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
