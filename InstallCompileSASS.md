@@ -1,6 +1,11 @@
-npm install -g grunt-cli
+## Install Node.js
+https://nodejs.org
 
-npm install grunt --save-dev
-
-npm install grunt-contrib-sass --save-dev
-npm install grunt-contrib-watch --save-dev
+##Install gulp
+npm install -g gulp
+npm install --save-dev gulp
+npm install --save-dev gulp-sass
+npm install --save-dev gulp-livereload
+npm install --save-dev gulp-minify-css
+npm install --save-dev gulp-rename
+npm install --save-dev gulp-util
