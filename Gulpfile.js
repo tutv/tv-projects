@@ -23,14 +23,15 @@ gulp.task('sass', function () {
 //Minify CSS
 gulp.task('minify-css', function () {
     return gulp.src(source + '/css/style.css')
-        .pipe(minifyCss({compatibility: 'ie8'}))
         .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest(source + '/css/'));
+        .pipe(minifyCss({compatibility: 'ie8'}))
+        .pipe(gulp.dest(source + '/css/'))
+        .pipe(livereload());
 });
 
 //Watch task
 gulp.task('watch', function () {
-    livereload.listen(35729);
+    livereload.listen();
     gulp.watch(source + '/sass/**/*.scss', ['sass', 'minify-css']);
 });
 
